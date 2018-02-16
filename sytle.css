@@ -1,0 +1,28 @@
+	html,body {
+	 height: 100%;
+	 width: 100%;
+	}
+
+	body {
+		/*background:  #25c4f3;*/
+		background:  linear-gradient(#EE6B00, #EB1D58, #E10457);
+		display: flex;
+
+	}
+	
+	.caja{
+		background-color: #fff;	
+		border-radius: 50%;
+		box-shadow: 0.5em 0.5em 0.5em #830031 ;
+		height: 20%;
+		margin: 0 auto;
+		width: 20%;
+		transition: all linear 2s; 
+	}
+
+	.caja:hover{
+		cursor:pointer;
+		background: #F79700;
+		border-radius: 0;
+	}
+
